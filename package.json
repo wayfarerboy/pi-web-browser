@@ -4,13 +4,14 @@
   "private": false,
   "description": "Pi extension: real Chromium browser access via Playwright",
   "type": "module",
-  "keywords": ["pi-package", "pi-extension"],
+  "keywords": [
+    "pi-package",
+    "pi-extension"
+  ],
   "pi": {
-    "extensions": ["./index.ts"]
-  },
-  "peerDependencies": {
-    "@earendil-works/pi-coding-agent": "*",
-    "typebox": "*"
+    "extensions": [
+      "./index.ts"
+    ]
   },
   "dependencies": {
     "playwright": "^1.61.0"
